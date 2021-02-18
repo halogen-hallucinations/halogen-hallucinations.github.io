@@ -32,6 +32,6 @@ social:
   - title: Bibtex
     url: ../bibtex
   - title: Dataset
-    url: https://github.com/AbhilashaRavichander/NoiseQA
+    url: https://github.com/noiseQA/NoiseQA
   - title: Noise Generators
     url: https://github.com/noiseQA/noiseQA-gen
