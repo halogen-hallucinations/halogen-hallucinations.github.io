@@ -5,4 +5,5 @@ category: Services
 title: Keyboard Interfaces
 description: |
 ---
-We examine keyboard noise, to simulate the effect of users interacting with QA systems by typing. This kind of noise is particularly important to study in the context of queries typed to search engines, for example. 
+
+Keyboard noise refers to the errors that originate in the process of typing – specifically, we focus on misspellings caused by keyboard layouts rather than user misconception. These typos might present a challenge when queries are entered into a search engine, and we find that a simple spellchecker might not be enough to combat them.
