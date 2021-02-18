@@ -6,4 +6,4 @@ title: Keyboard Interfaces
 description: |
 ---
 
-Keyboard noise refers to the errors that originate in the process of typing – specifically, we focus on misspellings caused by keyboard layouts rather than user misconception. These typos might present a challenge when queries are entered into a search engine, and we find that a simple spellchecker might not be enough to combat them.
+Keyboard noise refers to the errors that originate in the process of typing—specifically, we focus on misspellings caused by keyboard layouts rather than user misconception. These typos might present a challenge when queries are entered into a search engine, and we find that a simple spellchecker might not be enough to combat them.
