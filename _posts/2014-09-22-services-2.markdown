@@ -1,0 +1,9 @@
+---
+layout: default
+img: translation.jpeg
+category: Services
+title: Translation Interfaces
+description: |
+---
+We examine translation noise, to simulate the effect of users passing their questions through a translation system. In practice, many languages face information scarcity online---where few references articles are available in the language for a particular query. With the popularity of modern translation systems, users may employ translation services to interface with QA systems built in other languages. 
+

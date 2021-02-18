@@ -1,0 +1,8 @@
+---
+layout: default
+img: keyboard.jpeg
+category: Services
+title: Keyboard Interfaces
+description: |
+---
+We examine keyboard noise, to simulate the effect of users interacting with QA systems by typing. This kind of noise is particularly important to study in the context of queries typed to search engines, for example. 

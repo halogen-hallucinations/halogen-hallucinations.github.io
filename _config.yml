@@ -1,0 +1,37 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: noiseqa.github.io
+title: NoiseQA
+subTitle: Challenge Set Evaluation for User-Centric Question Answering
+email: aravicha@cs.cmu.edu
+author: Abhilasha Ravichander
+description: > # "Write an awesome description for your new site here. 
+  You can edit this line in _config.yml. It will appear in your document 
+  head meta (for Google search results) and in your feed.xml site 
+  description.
+copyright: 'Copyright &copy; 2020 Abhilasha Ravichander. All Rights Reserved.'
+credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: Paper
+    url: https://arxiv.org/abs/2102.08345
+  - title: Bibtex
+    url: ../bibtex
+  - title: Dataset
+    url: https://github.com/AbhilashaRavichander/NoiseQA
+  - title: Noise Generators
+    url: https://github.com/noiseQA/noiseQA-gen
