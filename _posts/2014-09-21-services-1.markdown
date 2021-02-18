@@ -6,4 +6,5 @@ title: Speech Interfaces
 description: |
 ---
 
-We examine ASR noise, to simulate the effect of users interacting with QA systems through a speech interface. This kind of noise is particularly important to study with the advent of voice assistants, as well as to service the needs of users who prefer voice interfaces, and usage scenarios where voice input is more convenient.
+ASR noise simulates the errors introduced when users interact with QA systems through a speech interface.
+This type of noise became more prominent with the advent of voice assistants, and practitioners need to handle such errors to accommodate the users who rely on voice input.
