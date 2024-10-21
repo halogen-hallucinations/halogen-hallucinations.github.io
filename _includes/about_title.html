@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
               <br/><br/>
-                <h2>NoiseQA</h2>
-            <h4> <i>To appear at EACL 2021</i></h4>
+                <h2>HALoGEN</h2>
+            <h4> <i>Fantastic LLM Hallucinations and Where To Find Them</i></h4>
               </div>
         </div>
     </section>
@@ -16,23 +16,21 @@
         <div class="lead">
 
             <p>
-            QA systems are used in a variety of consumer-facing applications, but traditional QA evaluations do not yet reflect diverse user needs in realistic use cases. One such mismatch is that users would interact with QA systems through 
-                interfaces—such as speaking to voice assistants, typing questions into a search engine, or even translating questions to languages supported by the QA system.</p>
+Despite their impressive ability to generate high-quality and fluent text, generative large language models (LLMs) also produce hallucinations: statements that are misaligned with established world knowledge or provided input context. </p>
             </br>
-            <p>In this work, we advocate that practitioners construct a range of evaluations, reflecting real-world usage scenarios and potential users for their systems. We present:
+            <p>We release:
                 <ul>
-                <li> A detailed description of interface noise and associated ‘challenges of the channel’ for QA systems. We examine errors introduced by three kinds of interfaces: <b>speech recognizers, keyboard interfaces, and translation engines.</b></li>
+                <li> 10,923 prompts for generative models spanning nine domains including programming, scientific attribution, and summarization</li>
                     
-                    <li><b>An extensive analysis of interface noise</b> and its impact on the downstream question answering. </li>
-                    <li>An initial exploration of <b>mitigation strategies for interface errors.</b> Our mitigation strategies reduce <a href="https://arxiv.org/abs/1810.04805">BERT</a> errors on interface noise by 31% on average.</li>
+                    <li>Automatic high-precision verifiers for each use case that decompose LLM generations into atomic units, and verify each unit against a high-quality knowledge source</li>
+                    <li>150,000 generations from 14 language models.</li>
+                    <li> A novel error taxonomy for causes of model hallucination based on their origin in pretraining data.</li>
                     
                 </ul>
         
                 You can find all the details in our paper <a href="https://arxiv.org/abs/2102.08345">here</a>.
     
         
-        Our error analysis highlights considerations to inform the design of future QA systems and evaluations. We emphasize the need for holistic evaluation of QA systems, showing that model selection based on benchmark dataset performance alone can be misleading.
-                 Below we illustrate the three kinds of interface noise:
                
             </p>
 
