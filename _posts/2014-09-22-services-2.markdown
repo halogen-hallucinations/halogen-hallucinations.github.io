@@ -2,7 +2,7 @@
 layout: default
 img: translation.jpeg
 category: Services
-title: Translation Interfaces
+title: Scientific Attribution
 description: |
 ---
-Translation noise replicates the effect of users passing their questions through a translation system. For many languages, reference information for a particular query might not be readily available online, so users may employ a machine translation engine to interact with a QA system built for another language.
+Text about scientific attribution
