@@ -49,4 +49,29 @@
     <!-- /.content-section-b -->
     {% endif %}
 {% endfor %}
+
+
 </section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-centered is-max-desktop content">
+    <h2 class="title has-text-centered">Cite Us</h2>
+    
+    <!-- Box styling for the BibTeX -->
+    <div class="bibtex-box">
+      <pre><code id="bibtexCode">@misc{ravichander-halogen,
+      title={HALoGEN : Fantastic LLM Hallucinations and Where to Find Them}, 
+      author={Abhilasha Ravichander and Shrusti Ghela and David Wadden and Yejin Choi},
+      year={2025}
+      url={}
+}</code></pre>
+      
+      <!-- Copy button -->
+      <button id="copyButton" class="button is-dark">Copy</button>
+    </div>
+  </div>
+</section>
+
+<div id="copyNotification" style="display:none; position:fixed; bottom:20px; right:20px; background-color:#28a745; color:white; padding:10px; border-radius:5px; font-size:14px;">
+  BibTeX copied!
+</div>
