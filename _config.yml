@@ -24,13 +24,15 @@ permalink: pretty
 # ----------------------- #
 
 social:
+  - title: About
+    url: #about
   - title: Paper
-    url: https://arxiv.org/abs/2102.08345
+    url: ../halogen_preprint_dec.pdf
   - title: Bibtex
     url: ../bibtex
   - title: Dataset
     url: https://github.com/noiseQA/NoiseQA
   - title: Model Hallucinations
     url: https://github.com/noiseQA/noiseQA-gen
-  - title: Video
-    url: https://slideslive.com/38954510/noiseqa-challenge-set-evaluation-for-usercentric-question-answering
+  # - title: Video
+  #   url: https://slideslive.com/38954510/noiseqa-challenge-set-evaluation-for-usercentric-question-answering
