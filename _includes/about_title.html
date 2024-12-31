@@ -20,11 +20,12 @@
         <div class="lead">
             
             <p>
-Despite their impressive ability to generate high-quality and fluent text, generative large language models (LLMs) also produce hallucinations: statements that are misaligned with established world knowledge or provided input context. </p>
+Despite their impressive ability to generate high-quality and fluent text, generative large language models (LLMs) also produce <b>hallucinations</b>: statements that are misaligned with established world knowledge or provided input context. Figuring out the extent to which generative models hallucinate, and where these hallucinations come from, is a pressing challenge to enable </p>
             </br>
             <img src="../img/gpt4_hall_truncated.png" alt="Centered Image" style="display: block; margin: auto; max-width: 40%; max-height: 100vh;">
-            <center><figcaption style="font-size: 8px;">GPT-4 hallucination, where it describes a historical event that never took place.</figcaption></center></br></br>
+            <center><figcaption style="font-size: 12px;">GPT-4 hallucination, where the model fabricates a historical event.</figcaption></center></br></br>
 
+            
             <p>We release 🔦HALoGEN, a benchmark to measure LLM hallucinations which consists of:</br>
             🔎 <b>10,923</b> prompts for generative models spanning nine domains including programming, scientific attribution, and summarization.</br>
             🔧 <b>Automatic high-precision verifiers</b> for each use case that decompose LLM generations into atomic units, and verify each unit against a high-quality knowledge source to identify hallucinations.</br></br>
