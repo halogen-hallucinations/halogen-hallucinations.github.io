@@ -1,9 +1,1 @@
----
-layout: default
-img: speech.jpeg
-category: Services
-title: Code
-description: |
----
 
-Text about code hallucinations
