@@ -1,9 +1,1 @@
----
-layout: default
-img: keyboard.jpeg
-category: Services
-title: Summarization
-description: |
----
 
-Text about summarization
