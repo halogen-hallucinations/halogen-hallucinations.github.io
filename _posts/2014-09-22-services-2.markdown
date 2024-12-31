@@ -1,8 +1,1 @@
----
-layout: default
-img: translation.jpeg
-category: Services
-title: Scientific Attribution
-description: |
----
-Text about scientific attribution
+
