@@ -26,7 +26,7 @@ Despite their impressive ability to generate high-quality and fluent text, gener
             <center><figcaption style="font-size: 12px;">A hallucinated historical narrative produced by GPT-4.</figcaption></center></br></br>
 
             
-            <p>We release 🔦HALoGEN, a benchmark to measure LLM hallucinations which consists of:</br>
+            <p>We release 🔦HALoGEN, a benchmark to <b>measure LLM hallucinations</b> which consists of:</br>
             🔎 <b>10,923</b> prompts for generative models spanning nine domains including programming, scientific attribution, and summarization.</br>
             🔧 <b>Automatic high-precision verifiers</b> for each use case that decompose LLM generations into atomic units, and verify each unit against a high-quality knowledge source to identify hallucinations.</br></br>
             
@@ -37,7 +37,7 @@ Despite their impressive ability to generate high-quality and fluent text, gener
         ⭐ A novel <b>hallucination taxonomy</b> for identifying causes of model hallucination based on their <span style="color: maroon;">origin in training data</span>.</br>
 
 <center>
-<table style="width:70%; border-collapse: collapse; font-family: Arial, sans-serif;">
+<table style="width:80%; border-coll apse: collapse; font-family: Arial, sans-serif;">
       <tr>
     <th style="border: 1px solid black; background-color: #f2f2f2; padding: 8px; text-align: left;">
       Hallucination Type
@@ -48,24 +48,16 @@ Despite their impressive ability to generate high-quality and fluent text, gener
   </tr>
   <tr>
     <td  style="border: 1px solid black; padding: 8px;">Type A</td>
-    <td  style="border: 1px solid black; padding: 8px;">The correct fact was present in the
-pretraining data.</td>
+    <td  style="border: 1px solid black; padding: 8px;">The correct fact was present in the pretraining data.</td>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 8px;">Type B</td>
-    <td style="border: 1px solid black; padding: 8px;">An incorrect fact was in the pretrain-
-ing data, or the fact is taken out of context
-i.e. the fact appeared within a specific setting
-in a document in the training data, but when
-taken in isolation, it loses its original meaning.</td>
-  </tr>
+    <td style="border: 1px solid black; padding: 8px;">An incorrect fact was in the pretraining data, or the fact is taken out of context
+i.e. the fact appeared within a specific setting in a document in the training data, but when taken in isolation, it loses its original meaning.</td>   </tr>
 
   <tr>
     <td style="border: 1px solid black; padding: 8px;">Type C</td>
-    <td style="border: 1px solid black; padding: 8px;"> Neither a correct nor an incorrect
-fact was present in the pretraining data, and
-the model over-generalized when making pre-
-dictions.</td>
+    <td style="border: 1px solid black; padding: 8px;"> Neither a correct nor an incorrect fact was present in the pretraining data, and the model over-generalized when making predictions.</td>
   </tr>
 </table>
 </center>
