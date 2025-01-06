@@ -27,16 +27,14 @@ Despite their impressive ability to generate high-quality and fluent text, gener
             <center><figcaption style="font-size: 12px;">A hallucinated historical narrative produced by GPT-4.</figcaption></center></br></br>
 
             
-            <p>We release 🔦HALoGEN, a benchmark to <b>measure LLM hallucinations</b> which consists of:</br>
+            <p>We release 🔦HALoGEN, a diverse multi-domain benchmark to <b>measure LLM hallucinations</b> which consists of:</br>
             🔎 <b>10,923</b> prompts for generative models spanning nine domains including programming, scientific attribution, and summarization.</br>
-            🔧 <b>Automatic high-precision verifiers</b> for each use case that decompose LLM generations into atomic units, and verify each unit against a high-quality knowledge source to identify hallucinations.</br></br>
-            
+            🔧 <b>Automatic high-precision verifiers</b> for each use case that decompose LLM generations into individual atomic facts, and verify each fact against a high-quality knowledge source to identify hallucinations.
 
         Building on this framework we provide:</br>
         
         🤖 <b>150,000</b> generations from <b>14 large language models</b> with automated factuality annotations.</br>
-        ⭐ A novel <b>hallucination taxonomy</b> for identifying causes of model hallucination based on their <span style="color: maroon;">origin in training data</span>.</br>
-
+        ⭐ A <b>novel taxonomy that classifies model hallucinations</b> by tracing them back to their </b>origin in training data</b>, enabling systematic identification of potential reasons for language models generating false or unsupported outputs. We categorize hallucinations into three distinct types based on their training data origins:
 <center>
 <table style="width:80%; border-coll apse: collapse; font-family: Arial, sans-serif;">
       <tr>
@@ -49,7 +47,7 @@ Despite their impressive ability to generate high-quality and fluent text, gener
   </tr>
   <tr>
     <td  style="border: 1px solid black; padding: 8px;">Type A</td>
-    <td  style="border: 1px solid black; padding: 8px;">The correct fact was present in the pretraining data.</td>
+    <td  style="border: 1px solid black; padding: 8px;">The correct fact was present in the pretraining data, but the model still hallucinated.</td>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 8px;">Type B</td>
@@ -67,7 +65,7 @@ i.e. the fact appeared within a specific setting in a document in the training d
 
                 <img src="../img/halogen_Teaser.png" alt="Centered Image" style="display: block; margin: auto; max-width: 100%; max-height: 100vh;">
 
-                You can find more information in our paper <a href="https://arxiv.org/abs/2102.08345">here</a>.
+                You can read about our (many!) findings <a href="https://arxiv.org/abs/2102.08345">here</a>.
     
         
                
