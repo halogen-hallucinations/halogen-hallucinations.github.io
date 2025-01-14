@@ -30,9 +30,9 @@ social:
     url: ../halogen_preprint_dec.pdf
   - title: Bibtex
     url: ../bibtex
-  - title: Dataset
-    url: https://github.com/noiseQA/NoiseQA
+  - title: Code & Dataset
+    url: https://github.com/AbhilashaRavichander/HALoGEN/
   - title: Model Hallucinations
-    url: https://github.com/noiseQA/noiseQA-gen
+    url: https://github.com/AbhilashaRavichander/HALoGEN/model_hallucinations
   # - title: Video
   #   url: https://slideslive.com/38954510/noiseqa-challenge-set-evaluation-for-usercentric-question-answering
