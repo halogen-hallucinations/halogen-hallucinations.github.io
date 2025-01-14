@@ -32,7 +32,7 @@ social:
     url: ../bibtex
   - title: Code & Dataset
     url: https://github.com/AbhilashaRavichander/HALoGEN/
-  - title: Model Hallucinations
+  - title: LLM Hallucinations
     url: https://github.com/AbhilashaRavichander/HALoGEN/model_hallucinations
   # - title: Video
   #   url: https://slideslive.com/38954510/noiseqa-challenge-set-evaluation-for-usercentric-question-answering
