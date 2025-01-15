@@ -27,7 +27,7 @@ social:
   - title: About
     url: ./#about
   - title: Paper
-    url: ../halogen_preprint_dec.pdf
+    url: https://arxiv.org/abs/2501.08292
   - title: Bibtex
     url: ../bibtex
   - title: Code & Dataset
